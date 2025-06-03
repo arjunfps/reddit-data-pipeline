@@ -49,4 +49,3 @@ It's ideal for analyzing trends, sentiment, or user behavior from Reddit communi
 * Build dashboards using tools like QuickSight, Power BI, or Tableau
 * Extend the pipeline to include more subreddits or additional data types
 
-![dash](./img/ex_dash.png)
