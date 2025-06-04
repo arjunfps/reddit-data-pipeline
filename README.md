@@ -1,8 +1,8 @@
-# 🚀 Reddit Data Engineering Pipeline
+#  Reddit Data Engineering Pipeline
 
 A scalable data pipeline that extracts Reddit posts and comments, stores them in Amazon S3, transforms the data using AWS Glue and Athena, and loads it into Amazon Redshift for analytics — orchestrated with Apache Airflow.
 
-## 🔍 Overview
+##  Overview
 
 This project builds an end-to-end **data engineering pipeline** that:
 
@@ -14,21 +14,21 @@ This project builds an end-to-end **data engineering pipeline** that:
 
 It's ideal for analyzing trends, sentiment, or user behavior from Reddit communities.
 
-## 🧩 Features
+##  Features
 
-✅ Reddit data ingestion  
-✅ Raw data storage in AWS S3  
-✅ Workflow automation via Apache Airflow  
-✅ Schema management and transformation with AWS Glue & Athena  
-✅ Final data warehouse in Amazon Redshift  
-✅ Dockerized local development environment  
+- Reddit data ingestion  
+- Raw data storage in AWS S3  
+- Workflow automation via Apache Airflow  
+- Schema management and transformation with AWS Glue & Athena  
+- Final data warehouse in Amazon Redshift  
+- Dockerized local development environment  
 
-## 🏗️ Architecture Overview
+## ️ Architecture Overview
 
 ![Arch](./img/arch.png)
 
 
-## 🛠️ Technologies Used
+## ️ Technologies Used
 
 | Tool/Service        | Purpose |
 |---------------------|---------|
@@ -41,11 +41,15 @@ It's ideal for analyzing trends, sentiment, or user behavior from Reddit communi
 | **Amazon Redshift** | Final data warehouse for analytics |
 | **PostgreSQL**      | Metadata store for Airflow |
 
-## 📊 What can be with this?
+##  What can be with this?
 
 * Analyze trending topics across subreddits
 * Monitor community growth and engagement
 * Perform sentiment analysis on comments
 * Build dashboards using tools like QuickSight, Power BI, or Tableau
 * Extend the pipeline to include more subreddits or additional data types
+
+## Dashboards
+
+![](./img/dash.png)
 
